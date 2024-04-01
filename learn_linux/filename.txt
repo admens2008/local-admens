@@ -1,0 +1,3 @@
+Good morning.
+welcome.
+I'm testing redirection, lol
