@@ -21,3 +21,9 @@ scp -o "StrictHostKeyChecking=no" -i "$path_to_ssh_key" "$ath_to_file_" "$userna
 
 # checking if the transfer was succesful
 
+if [ $? -eq 0 ]
+then
+	echo "FILE WAS TRANSFERRED SUCCESSFULY"
+else
+	echo "UNSUCCESSFUL TRANSFER"
+fi
