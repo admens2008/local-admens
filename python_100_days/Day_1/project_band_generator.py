@@ -1,4 +1,6 @@
-Project Band name generator.
+#!/usr/bin/python3
+
+#Project Band name generator.
 #This project generates your band name by combining your city and names
 
 print("Welcome to the Band Name Generator.")
