@@ -9,18 +9,21 @@ Multiple-choice questions
 Case-insensitive answer checking
 Score tracking
 Feedback messages based on the user's score
+
 Getting Started
 Prerequisites
 Python 3.x installed on your system
+
 Installation
 Clone the repository or download the source code.
 Navigate to the directory containing the source code.
+
 Running the Quiz
 Open a terminal or command prompt.
 Navigate to the directory where the source code is located.
 Run the script using Python:
-
 python run_quiz.py
+
 Project Structure
 questions.py: Contains the list of quiz questions.
 run_quiz.py: Contains the logic to run the quiz.
