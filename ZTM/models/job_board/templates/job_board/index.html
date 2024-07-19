@@ -1,0 +1,9 @@
+{% load humanize %}
+
+<html>
+	<ol>
+		{% for job in job_postings %}
+		<li>{{ job.title|title }} | {{ job.description }} | ${{ job.salary|intcomma }}</li>
+		{% endfor %}
+	</ol>
+</html>

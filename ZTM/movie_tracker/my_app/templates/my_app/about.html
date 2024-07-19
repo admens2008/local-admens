@@ -1,0 +1,17 @@
+{% extends 'my_app/_base.html' %}
+{% load static %}
+
+
+{% block content %}
+	{% if names %}
+		<ul>
+			{% for name in names %}
+				<li><h2>{{ name|title }}</h2></li>
+			{% endfor %}
+	 	</ul>
+	 {% else %}
+	 	<h2>No name found</h2>
+	 {% endif %}
+	 
+	 <img style="width: 100px;" src="{% static 'my_app/pic_1.jpg' %}" alt="my pic">
+	 {% endblock %}
